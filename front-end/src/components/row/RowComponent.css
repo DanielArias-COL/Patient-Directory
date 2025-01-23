@@ -78,8 +78,11 @@
   margin: auto;
   margin-top: 1vh;
   width: 400px;
+  min-height: 530px;
   background-color: #fefffe;
   border-radius: 8px;
+  container-name: modal_container;
+  container-type: inline-size;
 }
 
 .button_container {

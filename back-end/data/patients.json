@@ -5,25 +5,16 @@
     "cc": "CC - 1095987563",
     "cellPhone": "3015896353",
     "entity": "Eps Sanitas",
-    "lastAttention": "03/06/2024",
+    "lastAttention": "23/01/2025",
     "typeAttention": "Consulta de Psiquiatría",
-    "state": "Estable",
+    "state": "Crítico",
     "birthday": "10/11/1999",
-    "age": "37",
+    "age": "45",
     "typeIdentification": "Cédula de ciudadanía",
     "telephone": "(602) 1234563",
     "address": "Calle 15C # 92-51",
     "occupation": "Ing de sistemas",
-    "checkIns": [
-      {
-        "id": "1",
-        "date": "15/01/2024",
-        "time": "09:00 AM",
-        "notes": "Revisión general programada.",
-        "doctor": "Dr. Juan Pérez",
-        "doctorTitle": "Médico General"
-      }
-    ]
+    "checkIns": []
   },
   {
     "id": "654321",
@@ -66,16 +57,7 @@
     "telephone": "(601) 3214567",
     "address": "Avenida 30 # 20-45",
     "occupation": "Ingeniero Civil",
-    "checkIns": [
-      {
-        "id": "1",
-        "date": "03/02/2024",
-        "time": "02:00 PM",
-        "notes": "Seguimiento a tratamiento de hipertensión.",
-        "doctor": "Dr. Jaime López",
-        "doctorTitle": "Cardiólogo"
-      }
-    ]
+    "checkIns": []
   },
   {
     "id": "456789",
@@ -94,12 +76,12 @@
     "occupation": "Abogada",
     "checkIns": [
       {
-        "id": "1",
-        "date": "15/01/2024",
-        "time": "11:30 AM",
-        "notes": "Control ginecológico de rutina.",
-        "doctor": "Dra. Paula Rojas",
-        "doctorTitle": "Ginecóloga"
+        "id": 1,
+        "date": "23/01/2025",
+        "time": "6:39 PM",
+        "notes": "test",
+        "doctor": "Dra. Camila Zapata Zuñiga",
+        "doctorTitle": "Médico General"
       }
     ]
   },

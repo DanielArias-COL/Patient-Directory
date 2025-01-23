@@ -11,6 +11,8 @@
   margin: auto;
   margin-right: 20px;
   margin-left: 20px;
+  container-name: detailpatient;
+  container-type: inline-size;
 }
 
 .detailpatient__info {
@@ -82,10 +84,11 @@ textarea {
 /*  ------- ObservationRow styles-------     */
 
 .observations {
+  display: none;
+  display: block;
   width: 100%;
   margin-top: 10px;
   margin-bottom: 20px;
-  min-height: 110px;
   max-height: 190px;
   overflow: auto;
 }
@@ -110,3 +113,13 @@ textarea {
   margin-bottom: 20px;
   margin-top: 50px;
 }
+
+@container modal_container (max-width: 532px) {
+  .detailpatient__info-buttonsave-container{
+    margin-bottom: 0;
+  }
+}
+
+
+
+
