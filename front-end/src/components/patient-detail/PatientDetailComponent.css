@@ -1,0 +1,112 @@
+/*  ------- Modal styles-------     */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.detailpatient {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.detailpatient__info {
+  display: grid;
+  gap: 11px 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 40px 40px 40px 40px 40px;
+  grid-auto-rows: 40px;
+  margin-bottom: 20px;
+}
+
+.detailpatient__info-item p {
+  padding: 6px 0px;
+}
+
+.detailpatient__info-item:first-child {
+  grid-column: span 2;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.detailpatient__info-item-title {
+  color: #0f4c81;
+  font-weight: bold;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 12px;
+  color: #75ab45;
+}
+
+.detailpatien__observation label,
+textarea {
+  display: block;
+  margin-top: 10px;
+}
+
+.detailpatien__observation textarea {
+  font-family: inherit;
+  text-decoration: none;
+  width: 100%;
+  height: 100px;
+  padding: 6px 7px;
+  border-radius: 8px;
+  resize: none;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.detailpatient__info-buttonsave-container {
+  text-align: right;
+  margin-bottom: 25px;
+}
+
+.detailpatient__info-buttonsave {
+  color: #75ab45;
+  font-weight: 600;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+/*  ------- ObservationRow styles-------     */
+
+.observations {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  min-height: 110px;
+  max-height: 190px;
+  overflow: auto;
+}
+
+.detailpatient__info-input {
+  display: block;
+  color: inherit;
+  width: 100%;
+  border: none;
+  padding: 5px 0px;
+  border-radius: 3px;
+}
+
+.detailpatient__info-input:focus {
+  border: 2px solid #949495;
+  outline: none;
+}
+
+.detailpatientedit__buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}

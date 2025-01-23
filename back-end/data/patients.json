@@ -1,0 +1,140 @@
+[
+  {
+    "id": "123456",
+    "name": "Javier Andrés Caicedo Rodríguez",
+    "cc": "CC - 1095987563",
+    "cellPhone": "3015896353",
+    "entity": "Eps Sanitas",
+    "lastAttention": "03/06/2024",
+    "typeAttention": "Consulta de Psiquiatría",
+    "state": "Estable",
+    "birthday": "10/11/1999",
+    "age": "37",
+    "typeIdentification": "Cédula de ciudadanía",
+    "telephone": "(602) 1234563",
+    "address": "Calle 15C # 92-51",
+    "occupation": "Ing de sistemas",
+    "checkIns": [
+      {
+        "id": "1",
+        "date": "15/01/2024",
+        "time": "09:00 AM",
+        "notes": "Revisión general programada.",
+        "doctor": "Dr. Juan Pérez",
+        "doctorTitle": "Médico General"
+      }
+    ]
+  },
+  {
+    "id": "654321",
+    "name": "Luisa María Gómez Fernández",
+    "cc": "CC - 987654321",
+    "cellPhone": "3007896541",
+    "entity": "Coomeva EPS",
+    "lastAttention": "17/07/2024",
+    "typeAttention": "Control general",
+    "state": "Moderado",
+    "birthday": "15/05/1987",
+    "age": "36",
+    "typeIdentification": "Cédula de ciudadanía",
+    "telephone": "(602) 9876543",
+    "address": "Carrera 45 # 12-34",
+    "occupation": "Docente",
+    "checkIns": [
+      {
+        "id": "1",
+        "date": "10/03/2024",
+        "time": "08:00 AM",
+        "notes": "Control general programado.",
+        "doctor": "Dr. Ricardo Salazar",
+        "doctorTitle": "Internista"
+      }
+    ]
+  },
+  {
+    "id": "789123",
+    "name": "Carlos Andrés Ramírez Torres",
+    "cc": "CC - 123789456",
+    "cellPhone": "3104567890",
+    "entity": "Sura EPS",
+    "lastAttention": "05/02/2024",
+    "typeAttention": "Consulta cardiológica",
+    "state": "Crítico",
+    "birthday": "20/10/1970",
+    "age": "54",
+    "typeIdentification": "Cédula de ciudadanía",
+    "telephone": "(601) 3214567",
+    "address": "Avenida 30 # 20-45",
+    "occupation": "Ingeniero Civil",
+    "checkIns": [
+      {
+        "id": "1",
+        "date": "03/02/2024",
+        "time": "02:00 PM",
+        "notes": "Seguimiento a tratamiento de hipertensión.",
+        "doctor": "Dr. Jaime López",
+        "doctorTitle": "Cardiólogo"
+      }
+    ]
+  },
+  {
+    "id": "456789",
+    "name": "Ana Sofía López Martínez",
+    "cc": "CC - 321654987",
+    "cellPhone": "3184561230",
+    "entity": "Nueva EPS",
+    "lastAttention": "18/01/2024",
+    "typeAttention": "Consulta ginecológica",
+    "state": "Estable",
+    "birthday": "05/07/1995",
+    "age": "29",
+    "typeIdentification": "Cédula de ciudadanía",
+    "telephone": "(602) 9874561",
+    "address": "Calle 50 # 10-20",
+    "occupation": "Abogada",
+    "checkIns": [
+      {
+        "id": "1",
+        "date": "15/01/2024",
+        "time": "11:30 AM",
+        "notes": "Control ginecológico de rutina.",
+        "doctor": "Dra. Paula Rojas",
+        "doctorTitle": "Ginecóloga"
+      }
+    ]
+  },
+  {
+    "id": "321654",
+    "name": "Miguel Ángel Torres Gutiérrez",
+    "cc": "CC - 654123987",
+    "cellPhone": "3209876543",
+    "entity": "Salud Total EPS",
+    "lastAttention": "22/02/2024",
+    "typeAttention": "Control pediátrico",
+    "state": "Moderado",
+    "birthday": "10/11/2019",
+    "age": "4",
+    "typeIdentification": "Registro Civil",
+    "telephone": "(601) 9871234",
+    "address": "Transversal 10 # 25-30",
+    "occupation": "N/A",
+    "checkIns": [
+      {
+        "id": "1",
+        "date": "20/02/2024",
+        "time": "09:00 AM",
+        "notes": "Control pediátrico trimestral.",
+        "doctor": "Dra. Valeria Contreras",
+        "doctorTitle": "Pediatra"
+      },
+      {
+        "id": "2",
+        "date": "20/01/2024",
+        "time": "10:00 AM",
+        "notes": "Vacunación.",
+        "doctor": "Dra. Valeria Contreras",
+        "doctorTitle": "Pediatra"
+      }
+    ]
+  }
+]
