@@ -135,16 +135,18 @@ function PatientInfoComponent(propos) {
           Guardar
         </a>
       </div>
-      <div className="observations">
-        {chekins.map((chekin) => (
-          <ObservationRowComponent
-            key={chekin.id}
-            patientId={patientData.id}
-            chekin={chekin}
-            setChekins={setChekins}
-          />
-        ))}
-      </div>
+      {chekins.length > 0 && (
+        <div className="observations">
+          {chekins.map((chekin) => (
+            <ObservationRowComponent
+              key={chekin.id}
+              patientId={patientData.id}
+              chekin={chekin}
+              setChekins={setChekins}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 }
