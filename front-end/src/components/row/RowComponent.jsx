@@ -48,7 +48,6 @@ function RowComponent(props) {
         <div className={getStateClass(patient.state)}>{patient.state}</div>
       </span>
 
-      {/* Modal */}
       {isModalOpen && (
         <div className="modal">
           <div className="modal__container">

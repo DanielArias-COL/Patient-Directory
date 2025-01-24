@@ -3,16 +3,16 @@ const path = require("path");
 const patients = require("../data/patients.json");
 const Joi = require("joi");
 
-// Ruta al archivo patients.json
+
 const patientsFilePath = path.join(__dirname, "../data/patients.json");
 
-// Función para leer el archivo patients.json
+
 const readPatientsFile = () => {
   const fileContent = fs.readFileSync(patientsFilePath, "utf8");
   return JSON.parse(fileContent);
 };
 
-// Función para escribir en el archivo patients.json
+
 const writePatientsFile = (patientsData) => {
   fs.writeFileSync(
     patientsFilePath,
@@ -37,7 +37,7 @@ const getCurrentDate = () => {
   const month = String(today.getMonth() + 1).padStart(2, "0");
   const year = today.getFullYear();
 
-  return `${day}/${month}/${year}`; // Devuelve la fecha en el formato dd/mm/yyyy
+  return `${day}/${month}/${year}`; 
 };
 
 const getCurrentTime = () => {

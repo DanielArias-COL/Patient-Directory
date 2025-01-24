@@ -1,4 +1,4 @@
-import { convertToISO, convertFromISO } from "../../utils/helpers/fileUtils";
+import { convertToISO} from "../../utils/helpers/fileUtils";
 import ObservationRowComponent from "../observation-row/ObservationRowComponent";
 import { addChekinPatient } from "../../services/chekinService";
 import React, { useState, useEffect } from "react";

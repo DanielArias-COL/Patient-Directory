@@ -2,19 +2,28 @@
   {
     "id": "123456",
     "name": "Javier Andrés Caicedo Rodríguez",
-    "cc": "CC - 1095987563",
-    "cellPhone": "3015896353",
+    "cc": "CC - 1095987568",
+    "cellPhone": "3015896356",
     "entity": "Eps Sanitas",
-    "lastAttention": "23/01/2025",
+    "lastAttention": "06/01/2025",
     "typeAttention": "Consulta de Psiquiatría",
     "state": "Crítico",
-    "birthday": "10/11/1999",
+    "birthday": "02/11/1999",
     "age": "45",
     "typeIdentification": "Cédula de ciudadanía",
     "telephone": "(602) 1234563",
     "address": "Calle 15C # 92-51",
-    "occupation": "Ing de sistemas",
-    "checkIns": []
+    "occupation": "Ing civil",
+    "checkIns": [
+      {
+        "id": 1,
+        "date": "24/01/2025",
+        "time": "6:33 PM",
+        "notes": "El paciente presente mucho dolor de cabeza, se recomienda reposo.",
+        "doctor": "Dra. Camila Zapata Zuñiga",
+        "doctorTitle": "Médico General"
+      }
+    ]
   },
   {
     "id": "654321",

@@ -17,47 +17,6 @@ getAllChekinsByPatientId = (req, res) => {
   res.json(patient.checkIns);
 };
 
-const addChekinPatientx = (req, res) => {
-  const patient = patients.find((p) => p.id === req.params.id);
-
-  if (!patient) {
-    return res.status(404).json({ message: "Paciente no encontrado" });
-  }
-
-  const { notes } = req.body;
-
-  if (!notes) {
-    return res
-      .status(400)
-      .json({ message: "La observación no cuenta con contenido" });
-  }
-
-  const id = countCheckins(req.params.id) + 1;
-  const date = getCurrentDate();
-  const time = getCurrentTime();
-
-  const newCheckIn = {
-    id,
-    date,
-    time,
-    notes,
-    doctor: "Dra. Camila Zapata Zuñiga",
-    doctorTitle: "Medico General",
-  };
-
-  patient.checkIns.push(newCheckIn);
-
-  try {
-    writePatientsFile(patients);
-    return res.status(200).json(patient);
-  } catch (error) {
-    console.error("Error al escribir en el archivo:", error);
-    return res
-      .status(500)
-      .json({ message: "Hubo un error al guardar los cambios" });
-  }
-};
-
 const addChekinPatient = (req, res) => {
   const { id } = req.params;
   const { notes } = req.body;
@@ -118,7 +77,7 @@ const deleteCheckInPatient = (req, res) => {
       message: "Paciente no encontrado",
     });
   }
-  console.log(req.params.checkInId);
+  
   const checkInIndex = patient.checkIns.findIndex(
     (c) => c.id == req.params.checkInId
   );
@@ -130,14 +89,14 @@ const deleteCheckInPatient = (req, res) => {
     });
   }
 
-  patient.checkIns.splice(checkInIndex, 1); // Eliminar el check-in
+  patient.checkIns.splice(checkInIndex, 1); 
 
   try {
-    writePatientsFile(patients); // Guardar los cambios en el archivo
+    writePatientsFile(patients);
     res.status(200).json({
       status: "success",
       message: "Check-in eliminado con éxito",
-      data: patient.checkIns, // Retornar los datos del paciente actualizado
+      data: patient.checkIns, 
     });
   } catch (error) {
     console.error("Error al guardar los cambios:", error);

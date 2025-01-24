@@ -14,9 +14,9 @@ function generarCombinacionesPosibles(elementos, repeticiones) {
   
     while (contador < repeticiones) {
       let combinacionesAuxiliares = [];
-
-      for (let i = 0; i < elementos; i++) {
+      for (let i = 0; i < elementos; i++) {    //{0/1/2}, {'00', '01', '02'}
         for (let j = 0; j < combinaciones.length; j++) {
+            
           combinacionesAuxiliares.push(combinaciones[j] + i);
         }
       }
